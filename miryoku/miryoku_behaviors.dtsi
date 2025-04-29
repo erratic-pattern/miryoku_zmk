@@ -9,6 +9,7 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
+      quick-tap-ms = <U_QUICK_TAP_MS>;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
@@ -16,6 +17,7 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
+      quick-tap-ms = <U_QUICK_TAP_MS>;
     };
   };
 };
